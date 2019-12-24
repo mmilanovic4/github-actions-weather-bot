@@ -1,2 +1,3 @@
-# github-actions-weather-bot
+# Weather Bot
+
 Weather Bot automated using GitHub Actions.
