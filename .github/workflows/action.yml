@@ -16,7 +16,7 @@ jobs:
         run: npm install
       - name: "Run code"
         run: node app.js
-      env:
-        OPEN_WEATHER_API_TOKEN: ${{ secrets.OPEN_WEATHER_API_TOKEN }}
-        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        env:
+          OPEN_WEATHER_API_TOKEN: ${{ secrets.OPEN_WEATHER_API_TOKEN }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
