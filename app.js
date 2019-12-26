@@ -31,7 +31,7 @@ const generateWeatherMessage = weatherData => {
 
 Влажност ваздуха: ${weatherData.main.humidity}%
 
-Ветар: ${weatherData.wind.speed * windSpeedRatio} km/h
+Ветар: ${(weatherData.wind.speed * windSpeedRatio).toFixed(2)} km/h
 
 	`.trim();
 };
